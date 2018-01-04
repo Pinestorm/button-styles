@@ -7,12 +7,55 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  text-align: center;
+  font-size: 1.125rem;
+  padding: 0;
+}
+
 div {
   padding: .5rem;
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
 .btn {
+  display: inline-block;
+  font-size: 1.125rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn-subtle {
   color: #fff;
-  background-color:
+  background-color: #ccc;
+}
+
+.btn-subtle:hover {
+  background-color: #666;
+  border-color: #666;
+  margin: 0;
+}
+
+.btn-ghost {
+  color: #333;
+  background-color: #fff;
 }

@@ -59,3 +59,39 @@ a {
   color: #333;
   background-color: #fff;
 }
+
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+  border-color: #666;
+  margin: 0;
+}
+
+.btn-warning {
+  color: #fff;
+  background-color: #f33;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+  margin: 0;
+}
+
+.primary .subtle .warning {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+}
+
+.ghost {
+  display: inline-block;
+  border-style: solid;
+  border-radius: 8px;
+  border-width: 3px;
+  padding: .4em .75em .3em;
+  text-decoration: none;
+  border-color: #333;
+}
